@@ -1,4 +1,4 @@
-const word = document.getElementById('hero');
+const heroWord = document.getElementById('hero');
 const showCells = document.querySelectorAll('.hov-show');
 const hideCells = document.querySelectorAll('.hov-hide');
 const brNoneCells = document.querySelectorAll('.hov-br-none');
@@ -11,7 +11,7 @@ const tittle = document.getElementById('tittle');
 
 console.log(showCells)
 
-word.onmouseover = function() {
+heroWord.onmouseover = function() {
 
     showCells.forEach((cell) => {
         cell.classList.add('show');
@@ -44,7 +44,7 @@ word.onmouseover = function() {
     tittle.classList.add('br-all');
 }
 
-word.onmouseout = function() {
+heroWord.onmouseout = function() {
     showCells.forEach((cell) => {
         cell.classList.remove('show')
     })
