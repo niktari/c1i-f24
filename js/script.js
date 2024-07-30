@@ -1,3 +1,4 @@
+(function() {
 const heroWord = document.getElementById('hero');
 const showCells = document.querySelectorAll('.hov-show');
 const hideCells = document.querySelectorAll('.hov-hide');
@@ -8,8 +9,6 @@ const brTlCells = document.querySelectorAll('.hov-br-tl');
 const brTrCells = document.querySelectorAll('.hov-br-tr');
 
 const tittle = document.getElementById('tittle');
-
-console.log(showCells)
 
 heroWord.onmouseover = function() {
 
@@ -76,3 +75,4 @@ heroWord.onmouseout = function() {
 
     tittle.classList.remove('br-all');
 }
+})();
