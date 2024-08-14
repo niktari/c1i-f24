@@ -27,6 +27,10 @@
     color: var(--off-white);
   }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--grey);
     margin: var(--page-margin);
@@ -114,7 +118,7 @@ main {
     /* gap: 1rem; */
 }
 
-section:not(#hero) {
+section:not(#hero), footer {
     padding: 1rem 0;
     border-top: 2px solid var(--white);
 }
@@ -384,6 +388,23 @@ code {
     font-family: var(--mono);
     font-weight: 400;
     letter-spacing: -0.03em;
+}
+
+/* FOOTER  */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+    background-color: var(--grey);
+}
+
+#footer--link-title,
+#footer--link-title::after {
+	content: none;
+}
+#footer--link-top::after {
+	content: "↑";
+	color: var(--link-arrow-color);
 }
 
 
