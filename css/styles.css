@@ -39,7 +39,7 @@ body {
     font-weight: var(--font-weight-regular);
     font-style: normal;
     letter-spacing: -0.02em;
-    /* line-height: 1.3; */
+    line-height: 1.3;
     color: var(--black);
 }
 
