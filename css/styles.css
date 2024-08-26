@@ -13,7 +13,7 @@
 		"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
 		sans-serif;
     --font-size-h3: clamp(0.9rem, 1.65vw, 1.5rem); /* 1rem */
-    --font-size-h2: clamp(0.45rem, 0.99vw, 0.9rem); /* 0.6rem */
+    --font-size-h2: clamp(0.5rem, 0.99vw, 0.9rem); /* 0.6rem */
     --font-size-h5: clamp(1.1rem, 3.1vw, 3rem); /* 2rem */
     --font-weight-light: 400;
     --font-weight-regular: 500;
@@ -246,7 +246,7 @@ a:not(nav a)::after {
     border-radius: var(--border-radius);
 }
 
-li:not(#info div ul li) {
+#quick-links ul li, #community ul li {
     line-height: 1;
 }
 
