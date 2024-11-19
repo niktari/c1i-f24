@@ -313,6 +313,11 @@ details article {
     border-bottom-right-radius: 100%;
 }
 
+.bullet-list--secondary li {
+    margin-left: 0.5rem;
+    list-style-type: upper-alpha;
+} 
+
 /* TO-DO LIST */
 ol {
 	font-size: var(--font-size-h3);
